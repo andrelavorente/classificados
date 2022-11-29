@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+.background{
+    background-image: url("img/bg-jornal.webp");
+    background-position: center top;
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    background: transparent;
+    background-color: rgb(209, 196, 184);
+    padding: 14px 14%;
+}
+
+
+
+
+.topo{
+    display: flex;
+    gap: 3rem;
+   
+}
+
+.topo a{
+    color: #111;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.topo a:hover{
+    color: #e9b095;
+}
+
+.meio{
+    padding-top: 120px;
+    line-height: 4rem;
+    text-align: center;
+    
+}
+
+.meio h1{
+    font-size: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:  0.03em 0.03em 0.03em rgb(105, 104, 104);
+}
+
+.meio p {
+    font-size: 20px;
+    font-family: 'Old Standard TT', serif;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+
+section{
+    padding-top: 7rem;
+    
+}
+
+section h1{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+fieldset {
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+    width: 1200px;
+    border: 2px black solid;
+    
+ 
+
+}
+
+.container{
+   display: table;
+
+}
+
+.imagem img{
+    margin-left: 46px;
+    padding-top: 46px;
+    width: 500px;
+    height: 400px;
+    display: table-cell;
+    float: left;
+    transition: 0.35s ease;
+    
+}
+
+.p1 {
+    text-transform: uppercase;
+    padding-top: 45px;
+    display: table-cell;
+    float: left;
+    width: 500px;
+    margin-left: 20px;
+    
+    
+}
+
+.p2 {
+    padding-top: 20px;
+    display: table-cell;
+    float: left;
+    width: 440px;
+    margin-left: 20px;
+
+}
+
+
+
+.imagem img:hover{
+     transform: scale(0.9) translateY(-5px);
+     cursor: pointer;
+   
+     
+}
+
+
+
+#Contato{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: rgb(209, 196, 184);
+    color: black;
+    padding: 5rem;
+    margin-top: 5rem;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
