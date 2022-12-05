@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadastro.css">
+    <title>Cadastre seu Produto</title>
+</head>
+    <body>  
+        <body>
+            <div class="background">
+                <header>
+                    <nav class="topo">
+                        <li>
+                            <a href="http://127.0.0.1:5500/classificados/HTML/index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="http://127.0.0.1:5500/classificados/HTML/cadastro.html">Cadastre seu anúncio</a>
+                        </li>
+                        <li>
+                            <a href="http://127.0.0.1:5500/classificados/HTML/portfolio.html">Portfólio</a>
+                        </li>
+                    </nav>
+                </header>
+                
+            </div>
+        <div>
+            <h1 id="titulo">Cadastre seu Produtos</h1>
+        </div>
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Produto</strong></label>
+                    <input type="text" name="produto" id="produto">
+                </div>
+                <div class="campo">
+                    <label for="sobrenome"><strong>Contato</strong></label>
+                    <input type="text" name="Contato" id="Contato">
+                </div>
+            </fieldset> 
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="campo">
+                <label><strong>Tipo do Produto:</strong></label>
+                    <select id="produto" required>
+                        <option selected disabled value="">Selecione</option>
+                        <option>Carro</option>
+                        <option>Casa</option>
+                        <option>Moto</option>
+                        <option>Outro</option>
+                    </select>
+            </div>
+            <fieldset class="grupo">
+                <div id="check">
+                    <label><strong>Onde deseja anunciar:</strong></label><br><br>
+                    <input type="checkbox"><strong> Apenas na cidade</strong></input>
+                    <input type="checkbox"><strong> Estado</strong></input>
+                    <input type="checkbox"><strong> País</strong></input>
+                </div>
+            </fieldset>
+            <div class="campo"><br>
+                <label for="anuncio"><strong>Descrição do produto: </strong></label><br>
+                <textarea rows="15" style="width: 26em" id="anuncio" name="anuncio"></textarea>
+            </div>
+            <button class="botao" type="submit" onsubmit="">CADASTRAR</button>            
+        </form>
+        <section>
+            <footer class="Contato" id="Contat">
+            </footer>
+        </section>
+     </body>
+</html>
+
+
+
+
